@@ -48,6 +48,7 @@ pip install glean-api-client reportlab pdfplumber faker python-dotenv
 
 ## Folder Structure
 
+```env
 glean_project/
 ├── create_datasource.py         # Creates the Glean datasource
 ├── gen_pdf_index.py             # Generates 50 random PDF documents and indexes those into Glean
@@ -57,6 +58,8 @@ glean_project/
 │   └── doc_1.pdf ... doc_50.pdf
 ├── .env                         # Environment variables for Glean API
 └── README.md                    # Project documentation
+
+```
 
 ## Search Example
 response = client.client.search.query(
