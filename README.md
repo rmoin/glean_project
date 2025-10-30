@@ -42,8 +42,7 @@ pip install glean-api-client reportlab pdfplumber faker python-dotenv
 
     ```bash
     python create_datasource.py
-    python generate_pdfs.py
-    python index_documents.py
+    python gen_pdf_index.py
     python search_documents.py
     ```
 
