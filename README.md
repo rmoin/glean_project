@@ -62,6 +62,8 @@ glean_project/
 ```
 
 ## Search Example
+
+```bash
 response = client.client.search.query(
     query="Trends Report",
     page_size=10,
@@ -76,4 +78,5 @@ response = client.client.search.query(
 
 for result in response.results:
     print(f"- {result.title}: {result.url}")
+```
 
