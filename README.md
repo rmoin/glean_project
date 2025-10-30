@@ -27,7 +27,7 @@ Install dependencies:
 
 ```bash
 pip install glean-api-client reportlab pdfplumber faker python-dotenv
-
+```
 
 ## 🔧 Setup
 
